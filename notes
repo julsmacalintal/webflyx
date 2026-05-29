@@ -1,0 +1,24 @@
+julsmcculloh@Ubuntuland:~/Documents/Coding Practice/boot.dev/learn-git/webflyx$ git log -n 1
+commit 19d128539b10052b02bc3edcfb0e04fd80594cef (HEAD -> master)
+Author: julsm <3770992+julsmacalintal@users.noreply.github.com>
+Date:   Tue May 19 00:59:04 2026 -0500
+
+    B: add titles
+julsmcculloh@Ubuntuland:~/Documents/Coding Practice/boot.dev/learn-git/webflyx$ git cat-file -p 19d128539b10052b02bc3edcfb0e04fd80594cef
+tree 37712fab0aa902b37e2197ebb71e4e1ba4f45f3d
+parent 391321efebe601eaaa26f5b25d65247fb082be95
+author julsm <3770992+julsmacalintal@users.noreply.github.com> 1779170344 -0500
+committer julsm <3770992+julsmacalintal@users.noreply.github.com> 1779170344 -0500
+
+B: add titles
+julsmcculloh@Ubuntuland:~/Documents/Coding Practice/boot.dev/learn-git/webflyx$ git cat-file -p 37712fab0aa902b37e2197ebb71e4e1ba4f45f3d
+100644 blob ef7e93fc61a91deecaa551c4707e4c3049af42c9    contents.md
+100644 blob 66693b8d72daef9170108c6ab4b3abd7f3950dd2    titles.md
+julsmcculloh@Ubuntuland:~/Documents/Coding Practice/boot.dev/learn-git/webflyx$ git cat-file -p 66693b8d72daef9170108c6ab4b3abd7f3950dd2
+# Titles
+
+- A River Runs Through It
+- Fight Club
+- 12 Years a Slave
+- The Big Short
+- 12 Monkeys
